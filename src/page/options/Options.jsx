@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Options.css";
-export const Options = () => {
-    const [optionAct, setOptionAct] = new useState(0);
+export const Options = ({optionAct, setOptionAct}) => {
+    
     return (
         <div className="OptionsPage">
             <div className={(optionAct === 0) ? "OptionsPageOption__active" : ""} onClick={() => setOptionAct(0)}>
