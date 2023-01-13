@@ -7,10 +7,9 @@ function App() {
   return (
     <>
       <Header />
-      llldsdsd
-      <div>
-        <Contents />
+      <div className='appContent'>
         <Options />
+        <Contents />
       </div>
     </>
   );
