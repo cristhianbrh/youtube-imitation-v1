@@ -1,4 +1,6 @@
 .PrincipalContainer {
+    margin-top: 56px;
+    margin-left: 240px;
     flex: auto;
     overflow-y: auto;
     display: flex;
@@ -36,12 +38,13 @@
 
 
 .PrincipalContainer>.videoListContainer {
-    background-color: greenyellow;
     flex: auto;
     overflow-y: auto;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 253px);
+    gap: 15px;
+    justify-content: space-around;
+
 }
 
-.PrincipalContainer>.videoListContainer>.videoPart1 {
-    background-color: red;
-    
-}

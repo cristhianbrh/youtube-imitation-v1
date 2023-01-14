@@ -1,3 +1,4 @@
+import { VideoRecommendation } from "../../components/videoRecommendation/VideoRecommendation";
 import "./PrincipalContainer.css";
 export const PrincipalContainer = () => {
     return (
@@ -10,15 +11,28 @@ export const PrincipalContainer = () => {
                     </div>
                 </div>
                 <div className="videoListContainer">
-                    <div className="videoPart1">
-                        lol
-                    </div>
-                    <div className="videoShortsPart">
-
-                    </div>
-                    <div className="videoPart2">
-
-                    </div>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
+                    <VideoRecommendation/>
                 </div>
             </div>
         </>
