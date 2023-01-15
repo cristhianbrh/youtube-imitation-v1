@@ -7,10 +7,11 @@ import { ShortsContainer } from './containers/shorts/ShortsContainer';
 import { SuscriptionsContainer } from './containers/suscriptions/SuscriptionsContainer';
 import { LibraryContainer } from './containers/library/LibraryContainer';
 import { HistoryContainer } from './containers/history/HistoryContainer';
+import { InformationContainer } from './containers/information/InformationContainer';
 
 function App() {
   const [optionAct, setOptionAct] = new useState(0);
-  const containers = [<PrincipalContainer/>, <ShortsContainer/>, <SuscriptionsContainer/>, <LibraryContainer/>, <HistoryContainer/>]
+  const containers = [<PrincipalContainer/>, <ShortsContainer/>, <SuscriptionsContainer/>, <LibraryContainer/>, <HistoryContainer/>, <InformationContainer/>]
 
   return (
     <>

@@ -11,6 +11,8 @@
     height: 56px;
     width: 100%;
     display: flex;
+    position: fixed;
+    background-color: #fff;
 }
 
 .PrincipalContainer>.categoriesCont>div {
@@ -45,6 +47,6 @@
     grid-template-columns: repeat(auto-fill, 253px);
     gap: 15px;
     justify-content: space-around;
-
+    margin-top: 56px;
 }
 
